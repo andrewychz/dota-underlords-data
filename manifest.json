@@ -1,0 +1,32 @@
+{
+    "name" : "Dota Underlords",
+    "version" : "1.0",
+    "description" : "",
+    "content_scripts" : [
+        {
+            "matches" : ["https://steamcommunity.com/id/andrewychz/gcpd/*"],
+            "js" : ["jquery-3.4.1.min.js", "content_script.js"],
+            "run_at" : "document_end"
+        }
+    ],
+    "background" : {
+        "scripts" : ["background.js"],
+        "persistent" : false
+    },
+    "permissions" : [
+        "tabs",
+        "http://*/",
+        "https://*/",
+        "activeTab"
+    ],
+    "commands" : {
+        "capture" : {
+            "suggested_key" : {
+                "default" : "Ctrl+Shift+C",
+                "mac" : "MacCtrl+Shift+C"
+            },
+            "description" : "Capture"
+        }
+    },
+    "manifest_version" : 2
+}
