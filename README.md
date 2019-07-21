@@ -29,4 +29,4 @@
 5. 选择游戏和比赛
 6. 点扩展的小鸡图标
 
-![](https://github.com/andrewychz/dota-underlords-data/blob/master/screenshot/%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C.gif)
+![](https://github.com/andrewychz/dota-underlords-data/blob/master/screenshot/%E5%AE%89%E8%A3%85%E4%BB%A5%E5%90%8E%E7%9A%84%E4%BD%BF%E7%94%A8%E6%B5%81%E7%A8%8B.gif)
