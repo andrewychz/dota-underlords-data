@@ -22,5 +22,11 @@
 
 ## 使用
 
-### 到个人游戏数据界面点击扩展的小鸡图标
+1. 用 Chrome 登陆网页 Steam
+2. 点头像
+3. 点右边的游戏
+4. 选择刀塔霸业游戏数据
+5. 选择游戏和比赛
+6. 点扩展的小鸡图标
+
 ![](https://github.com/andrewychz/dota-underlords-data/blob/master/screenshot/%E4%BD%BF%E7%94%A8%E6%95%88%E6%9E%9C.gif)
