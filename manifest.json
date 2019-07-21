@@ -13,20 +13,14 @@
         "scripts" : ["background.js"],
         "persistent" : false
     },
+    "browser_action" : {
+        "default_icon" : "chicken.png"
+    },
     "permissions" : [
         "tabs",
         "http://*/",
         "https://*/",
         "activeTab"
     ],
-    "commands" : {
-        "capture" : {
-            "suggested_key" : {
-                "default" : "Ctrl+Shift+C",
-                "mac" : "MacCtrl+Shift+C"
-            },
-            "description" : "Capture"
-        }
-    },
     "manifest_version" : 2
 }

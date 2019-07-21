@@ -2,28 +2,16 @@ var log = console.log.bind(console)
 
 log('content_script.js ready')
 
- // https://stackoverflow.com/questions/9602022/chrome-extension-retrieving-global-variable-from-webpage
-// var s = document.createElement('script');
-// s.src = chrome.extension.getURL('content_script.js');
-// (document.head||document.documentElement).appendChild(s);
-// s.onload = function() {
-//     s.remove();
-// };
+// https://stackoverflow.com/questions/9602022/chrome-extension-retrieving-global-variable-from-webpage
 
+// https://stackoverflow.com/questions/3209790/jquery-in-google-chrome-content-script
 var $J = $
 
 chrome.runtime.onMessage.addListener(function(message, _, sendResponse) {
     if (message.content == 'NeedFrame') {
-        // var element = document.querySelector('div.entryWrapper')
-        // sendResponse({
-        //     "x" : element.offsetLeft,
-        //     "y" : element.offsetTop,
-        //     "width" : element.offsetWidth,
-        //     "height" : element.offsetHeight
-        // })
-
-        // https://stackoverflow.com/questions/3209790/jquery-in-google-chrome-content-script
-
+        // https://bbs.nga.cn/read.php?tid=17938873&rand=571
+        
+        // 这两个不知道是怎么回事
         var g_sGcContinueToken = ''
         var g_sessionID = ''
 
